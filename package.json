@@ -1,0 +1,39 @@
+{
+  "name": "memeinvestor-website",
+  "version": "1.0.0",
+  "description": "The memeinvestor_Bot website coming right up",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sentry/node": "^4.6.4",
+    "body-parser": "^1.18.3",
+    "btoa": "^1.2.1",
+    "connect-multiparty": "^2.2.0",
+    "cookie-session": "^2.0.0-beta.3",
+    "dotenv": "^6.2.0",
+    "escape-html": "^1.0.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "express-recaptcha": "^4.1.1",
+    "fuse.js": "^3.4.2",
+    "handlebars": "^4.0.12",
+    "handlebars-helper-repeat": "^2.0.0",
+    "if-is-image": "^1.0.6",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-oauth2-refresh": "^1.1.0",
+    "passport-reddit": "^0.2.4",
+    "sequelize": "^5.8.7",
+    "system-sleep": "^1.3.6",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1"
+  }
+}
