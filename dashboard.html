@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>meme investor bot</title>
+    <meta charset="utf-8">
+    <meta name="application-name" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content="Start investing in memes with the best broker in r/MemeEconomy today!"/>
+    <meta name="theme-color" content="#212121"/>
+    <link rel="icon" type="image/png" href="resources/favicon/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="resources/favicon/favicon-32x32.png" sizes="16x16"/>
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet"> --> 
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Julius+Sans+One|Roboto:300|Playfair+Display:400,700" rel="stylesheet"> 
+    <!-- page -->
+    <link type="text/css" rel="stylesheet" href="css/shared.css"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <script src="js/particles.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="top-nav-container">
+      <nav>
+        <h1 class="logo"><a href="./index.html">M</a></h1>
+        <div class="nav-block">
+          <ul class="active">
+            <li><a href="./investors.html">investors</a></li>
+            <li><a href="./firms.html">firms</a></li>
+            <li><a href="#" id="js-show-login">dashboard</a></li>
+          </ul>
+          <!-- <a class="burger" href="#">=</a> -->
+          <div class="burger-hitbox" id="js-burger">
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="hero">
+      <div id="particles" class="particles"></div>
+      <!-- <video autoplay loop src="./resources/videos/3.mp4"></video> -->
+      <!-- this is a demo video - the local folder containing free hd stock videos is currently gitignored -->
+      <!-- <video autoplay loop src="http://www.piedpiper.com/app/themes/pied-piper/dist/images/Video_1.mp4"></video> -->
+      <div class="hero-content">
+        <img src="./resources/logo1.png">
+        <h1>Dashboard</h1>
+        <p>Welcome back, <span id="investor_name">valued investor</span>!</p>
+      </div>
+    </div>
+    <div id="transition" class="transition">
+      <img src="./resources/tr11.png">
+      <!-- <div class="shape"></div> -->
+    </div>
+    <div class="container">
+    </div>
+
+
+    <ul class="nav-mobile" id="js-nav">
+      <li><a href="#" id="js-close-nav"><i class="material-icons"> clear </i></a></li>
+      <li><a href="investors.html">investors</a></li>
+      <li><a href="firms.html">firms</a></li>
+      <li><a href="#" id="js-mob-show-login">dashboard</a></li>
+    </ul>
+
+    <dialog class="login-container" id="js-login">
+      <div class="login">
+        <a href="#" class="close-login" id="js-close-login"><i class="material-icons"> clear </i></a>
+        <div class="page-1" id="js-page-1" >
+          <h2>please connect your reddit account</h2>
+          <button class="reddit-bt">login with reddit</button>
+          <button class="guest-bt" id="js-open-guest-page">join as guest</button>
+          <p class="checkbox-container"><input type="checkbox" > stay logged</p>
+          <p class="description">After connecting your account you'll be able to manage your
+          investments, create, join or administrate firms directly from the dashboard<br><br>
+          We value your privacy. Your username is the only data required by this website.
+          Read our full <a href="#">privacy policy</a></p>
+        </div>
+        <div class="page-2" id="js-page-2">
+        </div>
+      </div>
+    </dialog>
+
+    <div class="cookie-dialog" id="js-cookie">
+      <div class="title-top">
+        <h3>&#x1F36A; </h3> <h2> we use cookies </h2>
+        <a href="#" class="close-cookie" id="js-close-cookie"><i class="material-icons"> clear </i></a>
+      </div>
+      <p>Read our cookie <a href="cookies.html">policy</a></p>
+      <button class="bt-dont" id="js-cookie-no">don't</button>
+      <button id="js-cookie-ok">ok</button>
+      <!-- <div class="cookie-options" id="js-cookie-options"> -->
+      <!--   <p class="checkbox-container"><input type="checkbox" >technical cookies</p> -->
+      <!--   <p class="checkbox-container"><input type="checkbox" >commercial cookies</p> -->
+      <!--   <p class="checkbox-container"><input type="checkbox" >statistical cookies</p> -->
+      <!-- </div> -->
+    </div>
+
+
+  </body>
+</html>
